@@ -1,4 +1,5 @@
 {
+  "homepage": "http://mohanritesh.githug.io/clarivate-SampleUI",
   "name": "clarivate-user-ui",
   "version": "0.1.0",
   "private": true,
@@ -74,7 +75,9 @@
     "webpack": "^4.44.2"
   },
   "scripts": {
-    "start": "react-scripts start",    
+    "start": "react-scripts start", 
+    "predeploy" : "npm run build",
+    "deploy": "gh-pages -d build",   
     "dev": "env-cmd -f .env.develop react-scripts start",   
     "build": "env-cmd -f .env.develop react-scripts build",
     "test": "react-scripts test",
