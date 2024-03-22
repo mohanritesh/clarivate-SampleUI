@@ -16,8 +16,8 @@ function UserTab() {
     try {       
       const response = await fetch(`${process.env.REACT_APP_BASE_URL}/api/user/getuser`, {
         method: 'GET',
-        // withCredentials: true,
-        // credentials: 'include',
+        withCredentials: true,
+        credentials: 'include',
         headers: {
           'Content-Type': 'application/json',
           'Authorization': 'Basic ' +  btoa(`${username}:${password}`),
