@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/clarivate-SampleUI/static/css/main.d1c4133f.chunk.css",
+    "main.js": "/clarivate-SampleUI/static/js/main.902d545b.chunk.js",
+    "main.js.map": "/clarivate-SampleUI/static/js/main.902d545b.chunk.js.map",
+    "runtime-main.js": "/clarivate-SampleUI/static/js/runtime-main.e0837951.js",
+    "runtime-main.js.map": "/clarivate-SampleUI/static/js/runtime-main.e0837951.js.map",
+    "static/js/2.bd32d26d.chunk.js": "/clarivate-SampleUI/static/js/2.bd32d26d.chunk.js",
+    "static/js/2.bd32d26d.chunk.js.map": "/clarivate-SampleUI/static/js/2.bd32d26d.chunk.js.map",
+    "index.html": "/clarivate-SampleUI/index.html",
+    "static/css/main.d1c4133f.chunk.css.map": "/clarivate-SampleUI/static/css/main.d1c4133f.chunk.css.map",
+    "static/js/2.bd32d26d.chunk.js.LICENSE.txt": "/clarivate-SampleUI/static/js/2.bd32d26d.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/clarivate-SampleUI/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0837951.js",
+    "static/js/2.bd32d26d.chunk.js",
+    "static/css/main.d1c4133f.chunk.css",
+    "static/js/main.902d545b.chunk.js"
+  ]
+}
