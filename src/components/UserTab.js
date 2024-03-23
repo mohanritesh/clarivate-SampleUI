@@ -5,6 +5,7 @@ function UserTab() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [authenticated, setAuthenticated] = useState(false);
+  const [authenticatederror, setAuthenticatederror] = useState('');
 
   useEffect(() => {
     if (authenticated) {
@@ -24,6 +25,7 @@ function UserTab() {
         },
       });
       if (response.status === 401) {
+        setAuthenticatederror('Unauthorized: Invalid username or password');
         console.error('Unauthorized: Invalid username or password');
         // Handle unauthorized access here (e.g., show error message)
         return;
@@ -72,7 +74,7 @@ function UserTab() {
               <p>Email: {userData.results[0].email}</p>
               {/* Display other user data */}
             </div>
-          ) : (
+          ) : (authenticatederror? <p>{authenticatederror}</p>:
             <p>Loading...</p>
           )}
         </div>
